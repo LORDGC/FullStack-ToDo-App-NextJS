@@ -51,7 +51,7 @@ export default function Header() {
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-amber-500 to-yellow-400 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
                   <Button
                       asChild
-                      className="relative bg-slate-950 border border-amber-500/40 text-amber-400 hover:bg-amber-500 hover:text-slate-950 font-bold uppercase text-xs tracking-wider px-5 py-2 rounded-lg transition-all active:scale-95"
+                      className="relative bg-slate-950 border border-amber-500/40 text-slate-950 hover:bg-amber-500 hover:text-slate-950 font-bold uppercase text-xs tracking-wider px-5 py-2 rounded-lg transition-all active:scale-95"
                   >
                     {/* Передаємо текст всередину кнопки як дітей, прибираючи label */}
                     <SignInButton mode="modal">

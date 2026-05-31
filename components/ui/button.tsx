@@ -5,7 +5,6 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-    // Базові стилі кнопки: додаємо моноширинний шрифт (font-mono),uppercase та плавні кібер-анімації
     "inline-flex items-center justify-center whitespace-nowrap rounded-lg text-xs font-bold uppercase tracking-wider uppercase transition-all duration-350 ring-offset-slate-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500/50 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-30 font-mono active:scale-[0.97]",
     {
         variants: {
